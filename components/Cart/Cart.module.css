@@ -1,0 +1,98 @@
+.cart {
+  margin: 0px;
+  width: 60%;
+  position: fixed;
+  top: 50px;
+  height: 95%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(177, 103, 103);
+  min-height: 50vh;
+}
+.cancel {
+  position: absolute;
+  cursor: pointer;
+  color: rgb(121, 117, 117);
+  top: 0;
+  right: 0;
+  margin: 20px;
+  background: none;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid rgb(121, 117, 117);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.h1 {
+  font-family: "Metal Mania";
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  margin: 20px 0px;
+  padding: 0;
+}
+
+.intro {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+}
+
+.h2 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 45%;
+}
+.price {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 20%;
+}
+
+.img {
+  width: 100%;
+  padding: 0px 35%;
+  height: inherit;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  display: flex;
+}
+
+.carttotal {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 19.2px;
+}
+
+.h4 {
+  font-family: "Metal Mania";
+  padding: 0px 21px;
+  font-size: 26px;
+  width: 150px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #56ccf2;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8%;
+  padding: 12px;
+  cursor: pointer;
+}
